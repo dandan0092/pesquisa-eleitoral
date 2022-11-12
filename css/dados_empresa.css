@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document  */
+
+#meio {
+	margin-top: 40px !important;
+	margin-bottom: 30px;
+}
+
+
+input[type="text"], input[type="email"], input[type="tel"]{
+	width: 700px;
+}
+
+#d{
+	width: 100%;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+#s{
+	width: 100%;
+	text-align: center;
+}
+
+input#home_bs{ margin-left: 0px !important; margin-top: 13px;  padding-left: 60px; padding-right: 60px;}
+input#arquivo{ width:118px; margin-top: 10px; }
+input#salvar_empresa{ margin-left: 790px !important; margin-top: 10px;}
+
+span#n{ margin-right: 25px; }
+span#e{ margin-right: 20px; }
+span#t{ margin-right: 80px; margin-left: -600px; }
+span#em{ margin-right: 95px; margin-left: -300px; }
+
+input#phone{ width: 100px; }
+input#email{ width: 400px; }
+
+iframe{
+	margin:0;
+	border: 0;
+	width: 860px;
+	height: 290px;
+	margin-bottom: 30px;
+}
+
+img{
+	border-radius: 5px;
+}
+
+/****************** CLASSES */
+
+

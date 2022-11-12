@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+/****************** CLASSES */
+
+.textarea{
+	overflow-y: hidden;
+	overflow-x: hidden;
+	min-height: 5px;
+	min-width: 650px;
+	max-height: 50px;
+	max-width: 650px;
+}

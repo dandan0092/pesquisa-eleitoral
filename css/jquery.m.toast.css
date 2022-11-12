@@ -1,0 +1,36 @@
+.toast{ 
+	position:fixed; 
+	list-style: none; 
+	padding: 0; 
+	bottom:0;
+	width:100%;
+	z-index: 999999;
+	font-family:Padrao;
+}
+
+.toast li{ 
+	display:block;
+	text-align: center;
+	width: 100%;
+	background: rgba(0, 0, 0,1);
+	border-bottom: 2px solid rgba(0, 0, 0,1); 
+	color:#fff;
+}
+
+.toast span {
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+}
+
+.toast li.danger{ 
+	border-bottom: 2px solid rgba(244, 66, 66,1);
+}
+
+.toast li.info{ 
+	border-bottom: 2px solid rgba(66, 158, 244,1); 
+}
+
+.toast li.success{  
+	border-bottom: 2px solid rgba(0, 173, 14,1); 
+}

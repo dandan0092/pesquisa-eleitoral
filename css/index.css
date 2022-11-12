@@ -1,0 +1,60 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face { font-family: BirchStd; src: url(../sources/BirchStd.otf); }
+@font-face { font-family: Padrao; src: url(../sources/Dosis-Regular.ttf); }
+@font-face { font-family: Estilosa; src: url(../sources/Lemonada-Regular.ttf); }
+@font-face { font-family: Titulo; src: url(../sources/Oswald-Regular.ttf); }
+
+*{font-family: padrao;}
+
+body{ margin:0; padding:0;}
+a{ text-decoration:none; }
+
+#principal{
+	margin: auto;
+	width: 1000px;
+}
+
+#topo{
+	position:relative;
+	margin-top: 150px;
+	text-align: center;
+	font-family: Titulo;
+	font-size: 40pt;
+	color: #00ad0e;
+}
+
+#menu{
+	font-family: Padrao;
+	position:relative;
+	margin-top: 20px;
+	text-align: center;
+}
+
+#busca{
+	position:relative;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+#meio{
+	text-align: center;
+}
+
+div[id^="div_research_"], div[id^="div_question_"]{
+    margin-bottom: 30px;
+    text-align: right;
+}
+
+#research{
+	margin-bottom: 40px;
+}
+
+#rodape{
+	margin-bottom: 50px;
+}
+
+/****************** CLASSES */
+

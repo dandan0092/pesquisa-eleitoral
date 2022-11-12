@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Pegando atributos do CSS index, esse arquivo pode servir pra mudar algo individual dessa pagina */
+
+#meio input[type="checkbox"]{
+	width: 300px !important;
+}
+
+#meio div[id^="div_question_"] {
+	text-align:left !important;
+}
+
+#meio div[id^="div_question_"] span{
+	position: relative;
+	text-align:left !important;
+	clear:both;
+	left: 0px !important;	
+}
+
+#meio div[id^="div_question_"] input[type="text"] {
+	width: 700px;
+	margin-left: 30px;
+	margin-right: 10px;
+}
+
+.t{
+	margin-bottom: 30px;
+}
+
+#questions{
+	margin-bottom: 40px;
+}
+
+/****************** CLASSES */

@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu ul{
+	padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu ul li a{
+	padding:10px;
+    display: inline-block;
+    color: #000;
+    border-bottom:1px solid #FFF;
+}
+
+#menu ul li a:hover, #menu ul li a:focus{
+    border-bottom:1px solid #00ad0e;
+}

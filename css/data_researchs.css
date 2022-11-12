@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document  */
+
+#meio {
+	margin-top: 30px !important;
+	margin-bottom: 30px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"]{
+	width: 700px;
+}
+
+#d{
+	width: 100%;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+#q{
+	width: 1000px;
+	margin-top: 30px;
+	text-align: left;
+	border-top: 1px solid #000;
+	padding-top: 15px;
+}
+
+#quadro{
+	margin-top: 30px;
+	margin-bottom:30px;
+	font-size: 17pt;
+}
+
+#s{
+	width: 100%;
+	margin-top: 20px;
+	text-align: right;
+	border-top: 1px solid #000;
+}
+
+a#remove{
+	background: rgba(0, 0, 0,0);
+	border:0;
+	padding: 9px 11px;
+	cursor: pointer;
+	font-size: 10pt;
+	font-family: padrao;
+	color: #000;
+}
+
+a#remove:hover{
+	color: #F00;	
+}
+
+input#home_bs{ margin-left: 0px !important; }
+input#arquivo{ margin-right: 160px !important; }
+input#salvar_empresa{ margin-left: 790px !important; margin-top: 10px;}
+
+span#p{ margin-right: 65px; }
+span#o{ margin-right: 70px; }
+span#d{ margin-right: 90px; }
+span#a{ margin-right: 60px; }
+span#ap{ margin-right: 60px; }
+span#na{ margin-right: 20px; }
+
+input#date, input#sample{ width: 60px; }
+input#calculation{ width: 80px; }
+input#research, input#objetive{ width: 857px; margin-bottom: 0; }
+input#samples{ width: 110px; }
+input[id^="al"]{ width: 60px }
+
+input#home_bs{ margin-top: 20px; }

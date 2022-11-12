@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+/****************** CLASSES */
+
+.data{
+	width: 150px;
+}
+
+.quest{
+	color: rgba(0,0,0,0.8);
+	padding:0;
+	margin:0;
+	font: 17px bold BirchStd;
+	font-style:italic;
+}

@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+#meio {
+	margin-top: 40px !important;
+	margin-bottom: 30px;
+}
+
+#meio div[id^="div_question_"] {
+	text-align:left !important;
+}
+
+#meio div[id^="div_question_"] span{
+	position: relative;
+	text-align:left !important;
+	clear:both;
+	left: 0px !important;	
+}
+
+#meio div[id^="div_question_"] input[type="text"] {
+	width: 700px;
+	margin-left: 30px;
+	margin-right: 10px;
+}
+
+.t{
+	margin-bottom: 30px;
+}
+
+input[type="text"]{
+	outline: none;
+	padding: 10px;
+	width: 500px;
+	border: 0;
+	background: rgba(245, 245, 245,1);
+}
+
+a#remove{
+	background: rgba(0, 0, 0,0);
+	border:0;
+	padding: 9px 11px;
+	cursor: pointer;
+	font-size: 10pt;
+	font-family: padrao;
+	color: #000;
+}
+
+a#remove:hover{
+	color: #F00;	
+}
+
+#meio #d{
+	margin-right: 90px;
+}
+
+#meio #d, #meio #d1{
+	margin-bottom: 10px;
+}
+
+fieldset{
+	border: 0;
+	padding:0;
+	margin: 0;
+	width: 980px;
+	margin-bottom: 20px;
+}
+
+input#home_bs{ margin-left: 0px !important; }
+
+/****************** CLASSES */

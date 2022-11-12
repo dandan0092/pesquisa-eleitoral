@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+.a{
+	-webkit-transition: all ease-in-out 250ms;
+	-moz-transition: all ease-in-out 250ms;
+	-ms-transition: all ease-in-out 250ms;
+	transition: all ease-in-out 250ms;
+}
